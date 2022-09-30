@@ -15,5 +15,11 @@ namespace csharp_ecommerce_db
         public string Level { get; set; }
 
         public List<Order> Orders { get; set; }
+
+        public Employee(string name, string level)
+        {
+            Name = name;
+            Level = level;
+        }
     }
 }
